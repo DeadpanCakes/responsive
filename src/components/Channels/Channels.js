@@ -1,5 +1,7 @@
-const Channels = () => {
-    return <section></section>
-}
+import "./Channels.css";
 
-export default Channels
+const Channels = () => {
+  return <section></section>;
+};
+
+export default Channels;
