@@ -1,5 +1,7 @@
+import "./Latest.css";
+
 const Latest = () => {
-  return <section></section>;
+  return <section className="latest"></section>;
 };
 
 export default Latest;
