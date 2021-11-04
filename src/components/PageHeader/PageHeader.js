@@ -1,5 +1,7 @@
+import "./PageHeader.css";
+
 const PageHeader = () => {
-  return <header></header>;
+  return <header classnName="pageHeader"></header>;
 };
 
 export default PageHeader;
