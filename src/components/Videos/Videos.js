@@ -1,5 +1,7 @@
+import "./Videos.css";
+
 const Videos = () => {
-  return <section></section>;
+  return <section className="videos"></section>;
 };
 
 export default Videos;
