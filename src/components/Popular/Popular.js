@@ -1,5 +1,7 @@
+import "./Popular.css";
+
 const Popular = () => {
-  return <section></section>;
+  return <section className="popular"></section>;
 };
 
 export default Popular;
