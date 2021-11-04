@@ -4,32 +4,45 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "one one two three"
-    "one one two three"
-    "one one five five"
-    "four four five five"
-    "four four five five";
-  min-height: 500px;
-  max-width: 1500px;
+    "header header tagline tagline"
+    "one    one    two     three"
+    "one    one    two     three"
+    "one    one    five    five"
+    "four   four   five    five"
+    "four   four   five    five";
+  column-gap: 10px;
+  row-gap: 10px;
+  min-height: 650px;
+  max-width: 80vw;
+  margin-top: 80px;
+  margin-left: 10vw;
 }
 
 .frontPage > *:nth-child(1) {
   background: white;
-  grid-area: one;
+  grid-area: header;
 }
 .frontPage > *:nth-child(2) {
   background: blue;
-  grid-area: two;
+  grid-area: tagline;
 }
 .frontPage > *:nth-child(3) {
   background: orange;
-  grid-area: three;
+  grid-area: one;
 }
 .frontPage > *:nth-child(4) {
   background: green;
-  grid-area: four;
+  grid-area: two;
 }
 .frontPage > *:nth-child(5) {
   background: pink;
+  grid-area: three;
+}
+.frontPage > *:nth-child(6) {
+  background: palegoldenrod;
+  grid-area: four;
+}
+.frontPage > *:nth-child(7) {
+  background: peachpuff;
   grid-area: five;
 }
