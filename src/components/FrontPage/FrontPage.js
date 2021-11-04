@@ -5,6 +5,12 @@ import ArticleCard from "../ArticleCard/ArticleCard";
 const FrontPage = () => {
   return (
     <section className="frontPage">
+      <h1>
+        <a href="https://thenextweb.com/">
+          <img alt="The Next Web" />
+        </a>
+      </h1>
+      <p>The heart of tech</p>
       <ArticleCard
         link="google.com"
         topic="Facial Recognition"
