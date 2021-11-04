@@ -1,5 +1,7 @@
+import "./FrontPage.css";
+
 const FrontPage = () => {
-  return <section></section>;
+  return <section className="frontPage"></section>;
 };
 
 export default FrontPage;
