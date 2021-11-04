@@ -1,0 +1,9 @@
+article {
+    position: relative;
+}
+
+.articleCardContent {
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+}
