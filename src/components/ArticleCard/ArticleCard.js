@@ -10,7 +10,7 @@ const ArticleCard = ({ link, topic, title, img, classes }) => {
         <div style={{ background: `url(${img}) blue` }}>
           <div className="articleCardContent">
             <p>{topic}</p>
-            <h2>{title}</h2> from "./PageFooter";
+            <h2>{title}</h2>
           </div>
         </div>
       </article>
