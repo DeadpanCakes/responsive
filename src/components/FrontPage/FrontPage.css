@@ -18,33 +18,37 @@
   margin-left: 10vw;
 }
 
-.frontPage > *:nth-child(1) {
+.largeHeader {
   background: white;
   grid-area: header;
 }
-.frontPage > *:nth-child(2) {
+.largeTagline {
   background: blue;
   grid-area: tagline;
 }
-.frontPage > *:nth-child(3) {
+.firstArticle {
   background: orange;
   grid-area: one;
 }
-.frontPage > *:nth-child(4) {
+.secondArticle {
   background: green;
   grid-area: two;
 }
-.frontPage > *:nth-child(5) {
+.thirdArticle {
   background: pink;
   grid-area: three;
 }
-.frontPage > *:nth-child(6) {
+.fourthArticle {
   background: palegoldenrod;
   grid-area: four;
 }
-.frontPage > *:nth-child(7) {
+.fiveArticle {
   background: peachpuff;
   grid-area: five;
+}
+
+.smallContainer {
+  display: none;
 }
 
 @media (max-width: 1020px) {
@@ -56,9 +60,48 @@
       "one     one     one    one"
       "two     two     three  three"
       "four    four    five   five";
-      min-height: 1000px;
+    min-height: 1000px;
   }
 }
 
 @media (max-width: 770px) {
+  .frontPage {
+    width: 98%;
+    max-width: none;
+    margin: 1%;
+    margin-top: 80px;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+      "header"
+      "articles"
+      "banner";
+  }
+  .large {
+    display: none;
+  }
+  .smallContainer {
+    display: flex;
+    overflow-x: auto;
+  }
+  .small.articleCard {
+    display: block;
+    width: 100%;
+    height: 100%;
+    flex: none;
+    margin: 0 1%;
+    background: white;
+  }
+  .smallHeader {
+    background: white;
+    grid-area: header;
+  }
+  .articleContainer {
+    background: blue;
+    grid-area: articles;
+  }
+  .banner {
+    background: orange;
+    grid-area: banner;
+  }
 }

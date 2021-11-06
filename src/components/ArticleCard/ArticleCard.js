@@ -1,8 +1,11 @@
 import "./ArticleCard.css";
 
-const ArticleCard = ({ link, topic, title, img }) => {
+const ArticleCard = ({ link, topic, title, img, classes }) => {
+  const classNames = Array.isArray(classes)
+    ? classes.concat("articleCard").join(" ")
+    : "articleCard";
   return (
-    <a href={link} className="articleCard">
+    <a href={link} className={classNames}>
       <article>
         <div style={{ background: `url(${img}) blue` }}>
           <div className="articleCardContent">
