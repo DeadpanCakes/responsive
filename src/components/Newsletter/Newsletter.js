@@ -12,7 +12,7 @@ const Newsletter = () => {
         or check out our{" "}
         <a href="https://thenextweb.com/newsletters">other newsletters.</a>
       </h3>
-      <label className="newsletterLabel" for="newsletterInput">
+      <label className="newsletterLabel" htmlFor="newsletterInput">
         Email
       </label>
       <input id="newsletterInput" placeholder="Email" />
