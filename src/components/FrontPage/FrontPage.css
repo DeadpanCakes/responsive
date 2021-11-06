@@ -46,3 +46,19 @@
   background: peachpuff;
   grid-area: five;
 }
+
+@media (max-width: 1020px) {
+  .frontPage {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "header  header  header  header"
+      "tagline tagline tagline tagline"
+      "one     one     one    one"
+      "two     two     three  three"
+      "four    four    five   five";
+      min-height: 1000px;
+  }
+}
+
+@media (max-width: 770px) {
+}
