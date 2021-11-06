@@ -32,6 +32,9 @@
   }
 }
 @media (max-width: 770px) {
+  .latest {
+    min-height: 1200px;
+  }
   .latestArticles {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
