@@ -1,3 +1,40 @@
 .pageFooter {
-    background: black;
+  color: white;
+  background: black;
+  padding: 50px 0;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+    "logo   logo   more about"
+    "logo   logo   more about"
+    "social social more about";
+  padding: 20px 20%;
+}
+
+.footerLogo {
+  grid-area: logo;
+}
+
+.footerMore {
+  grid-area: more;
+}
+
+.footerAbout {
+  grid-area: about;
+}
+
+.footerSocial {
+  grid-area: social;
+}
+
+.copyright {
+  border-top: 1px solid white;
+  padding-top: 50px;
+}
+
+@media (max-width: 1020px) {
 }
