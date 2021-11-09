@@ -1,5 +1,6 @@
 import "./Videos.css";
 import MainVid from "./MainVid";
+import VidCard from "./VidCard";
 
 const Videos = () => {
   return (
@@ -10,7 +11,13 @@ const Videos = () => {
         title="Nothing Ear (1) review: Style... and substance?"
         date="Jul 30, 2021"
       />
-      <ul className="videoCarousel"></ul>
+      <ul className="videoCarousel">
+        <VidCard imgSrc={null} imgAlt="vid" title="This is a video" />
+        <VidCard imgSrc={null} imgAlt="vid" title="This is a video" />
+        <VidCard imgSrc={null} imgAlt="vid" title="This is a video" />
+        <VidCard imgSrc={null} imgAlt="vid" title="This is a video" />
+        <VidCard imgSrc={null} imgAlt="vid" title="This is a video" />
+      </ul>
     </section>
   );
 };
