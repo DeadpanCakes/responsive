@@ -10,6 +10,25 @@
   top: 0%;
 }
 
+.headerNav {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+}
+
+.headerNav>* {
+  padding: 5px;
+}
+
+.headerNav>*:nth-child(2) {
+  margin-left: auto;
+}
+
+.headerNav>*:nth-last-child(2) {
+  margin-right: auto;
+}
+
 
 @media (max-width: 1020px) {
   .pageHeader {
