@@ -2,7 +2,7 @@ body {
   counter-reset: numberedList;
 }
 
-li::before {
+.articleCardSm::before {
   counter-increment: numberedList;
   content: counter(numberedList);
 }
