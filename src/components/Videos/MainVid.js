@@ -1,9 +1,10 @@
 const MainVid = ({ vidSrc, title, date }) => {
   return (
-    <div>
+    <div className="mainVidContainer">
       <iframe
-        width="950"
-        height="540"
+        className="mainVid"
+        width="100%"
+        height="auto"
         src={vidSrc}
         title="YouTube video player"
         frameBorder="0"
