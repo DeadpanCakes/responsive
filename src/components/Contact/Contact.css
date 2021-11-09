@@ -1,3 +1,26 @@
 .contact {
   background: purple;
+  display: flex;
+  padding: 20px 22%;
+}
+
+.contact > * {
+  flex: 1;
+}
+
+.contactContent {
+  text-align: start;
+  padding: 10px
+}
+
+.contactContent>* {
+  padding: 5px;
+}
+
+.contactIdeas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 }
