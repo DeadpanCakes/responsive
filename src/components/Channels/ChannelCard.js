@@ -1,3 +1,5 @@
+import "./ChannelCard.css";
+
 const ChannelCard = ({ link, title, desc, img }) => {
   const imgBG = {
     background: `url(${img})`,
@@ -5,9 +7,9 @@ const ChannelCard = ({ link, title, desc, img }) => {
   return (
     <li className="channelListing">
       <a href={link}>
-        <div style={imgBG}>
+        <div style={imgBG} className="channelContents">
           <h3>{title}</h3>
-          <p>{desc}</p>
+          <p className="channelDesc">{desc}</p>
         </div>
       </a>
     </li>
