@@ -35,4 +35,8 @@
   .headerNav>* {
     display: none;
   }
+
+  .headerNav>*:nth-child(1) {
+    display: block;
+  }
 }
