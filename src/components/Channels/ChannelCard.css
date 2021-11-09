@@ -13,3 +13,22 @@
 .channelDesc {
   grid-area: desc;
 }
+
+.test {
+  height: 100%;
+}
+
+@media (max-width: 1020px) {
+  .channelListing {
+    min-height: 200px;
+    max-width: 150px;
+    margin: 10px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+  }
+  .channelContents {
+    height: 100%;
+  }
+}

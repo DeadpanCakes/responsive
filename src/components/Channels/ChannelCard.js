@@ -6,7 +6,7 @@ const ChannelCard = ({ link, title, desc, img }) => {
   };
   return (
     <li className="channelListing">
-      <a href={link}>
+      <a href={link} className="test">
         <div style={imgBG} className="channelContents">
           <h3>{title}</h3>
           <p className="channelDesc">{desc}</p>
