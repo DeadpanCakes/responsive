@@ -5,4 +5,12 @@
 .channelsList {
   display: flex;
   padding: 20px 20%;
+  overflow-x: auto;
+}
+
+@media (max-width: 1020px) {
+  .channelsList {
+    padding: 20px 5px;
+    background-color: oldlace;
+  }
 }
