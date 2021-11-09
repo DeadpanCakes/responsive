@@ -1,6 +1,8 @@
-const ArticleCardSm = ({ title }) => {
+import "./ArticleCardSm.css";
+
+const ArticleCardSm = ({ title, rank }) => {
   return (
-    <li>
+    <li className="articleCardSm">
       <article>
         <h2>{title}</h2>
       </article>
