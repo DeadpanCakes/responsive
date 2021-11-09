@@ -4,7 +4,7 @@ import ChannelCard from "./ChannelCard";
 const Channels = () => {
   return (
     <section className="channels">
-      <ul>
+      <ul className="channelsList">
         <ChannelCard
           link="https://thenextweb.com/plugged"
           title="PLUGGED"
