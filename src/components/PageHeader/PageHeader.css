@@ -1,12 +1,10 @@
 .pageHeader {
   background: gray;
   display: flex;
-  position: fixed;
-  float: left;
+  position: sticky;
   z-index: 1;
   min-height: 80px;
   width: 100%;
-  position: absolute;
   top: 0%;
 }
 
@@ -29,9 +27,12 @@
   margin-right: auto;
 }
 
-
 @media (max-width: 1020px) {
   .pageHeader {
+    min-height: 50px;
+  }
+
+  .headerNav>* {
     display: none;
   }
 }
