@@ -1,6 +1,6 @@
 const VidCard = ({ imgSrc, imgAlt, title }) => {
   return (
-    <li>
+    <li className="vidCard">
       <img src={imgSrc} alt={imgAlt} />
       <h3>{title}</h3>
     </li>
