@@ -1,6 +1,11 @@
 import "./FrontPage.css";
 import "../ArticleCard/ArticleCard";
 import ArticleCard from "../ArticleCard/ArticleCard";
+import fbFace from "../../assets/fbFace.jpg";
+import metaLegs from "../../assets/metaLegs.jpg";
+import appleCar from "../../assets/appleCar.jpg";
+import iems from "../../assets/iems.webp";
+import conference from "../../assets/conference.jpg";
 
 const FrontPage = () => {
   return (
@@ -23,35 +28,35 @@ const FrontPage = () => {
         link="google.com"
         topic="Facial Recognition"
         title="There's something fishy about Facebook's pivot on facial recognition"
-        img={null}
+        img={fbFace}
         classes={["large firstArticle"]}
       />
       <ArticleCard
         link="google.com"
         topic="Facial Recognition"
         title="There's something fishy about Facebook's pivot on facial recognition"
-        img={null}
+        img={metaLegs}
         classes={["large secondArticle"]}
       />
       <ArticleCard
         link="google.com"
         topic="Facial Recognition"
         title="There's something fishy about Facebook's pivot on facial recognition"
-        img={null}
+        img={appleCar}
         classes={["large thirdArticle"]}
       />
       <ArticleCard
         link="google.com"
         topic="Facial Recognition"
         title="There's something fishy about Facebook's pivot on facial recognition"
-        img={null}
+        img={iems}
         classes={["large fourthArticle"]}
       />
       <ArticleCard
         link="google.com"
         topic="Facial Recognition"
         title="There's something fishy about Facebook's pivot on facial recognition"
-        img={null}
+        img={conference}
         classes={["large fifthArticle"]}
       />
       <div className="smallContainer articleContainer">
@@ -59,28 +64,28 @@ const FrontPage = () => {
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
-          img={null}
+          img={fbFace}
           classes={["small"]}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
-          img={null}
+          img={metaLegs}
           classes={["small"]}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
-          img={null}
+          img={appleCar}
           classes={["small"]}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
-          img={null}
+          img={iems}
           classes={["small"]}
         />
       </div>
@@ -88,7 +93,7 @@ const FrontPage = () => {
         link="google.com"
         topic="Facial Recognition"
         title="There's something fishy about Facebook's pivot on facial recognition"
-        img={null}
+        img={conference}
         classes={["small banner"]}
       />
     </section>

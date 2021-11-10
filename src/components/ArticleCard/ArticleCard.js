@@ -5,9 +5,9 @@ const ArticleCard = ({ link, topic, title, img, classes }) => {
     ? classes.concat("articleCard").join(" ")
     : "articleCard";
   return (
-    <a href={link} className={classNames}>
+    <a href={link} className={classNames} style={{ background: `url(${img}) blue`, backgroundSize: "cover" }}>
       <article>
-        <div style={{ background: `url(${img}) blue` }}>
+        <div >
           <div className="articleCardContent">
             <p>{topic}</p>
             <h2>{title}</h2>
