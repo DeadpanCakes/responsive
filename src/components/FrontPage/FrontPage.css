@@ -76,6 +76,7 @@
   .smallContainer {
     display: flex;
     overflow-x: auto;
+    visibility: visible;
   }
   .small.articleCard {
     display: block;
