@@ -2,3 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
+
+.headlineSm {
+  font-size: 1.5em;
+}
