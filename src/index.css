@@ -3,6 +3,14 @@ body {
   background: #fafafa;
 }
 
+h1 {
+  font-size: 3em
+}
+
+h2 {
+  font-size: 2em;
+}
+
 .articleCardSm::before {
   counter-increment: numberedList;
   content: counter(numberedList);
