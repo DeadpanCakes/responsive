@@ -14,6 +14,8 @@ h2 {
 .articleCardSm::before {
   counter-increment: numberedList;
   content: counter(numberedList);
+  font-size: 2em;
+  color: rgb(235, 61, 206)
 }
 
 body {
