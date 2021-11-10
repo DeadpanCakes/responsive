@@ -7,6 +7,10 @@
   justify-content: space-around;
 }
 
+.latestStories {
+  font-size: .8em;
+}
+
 .latestArticles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -34,6 +38,7 @@
 @media (max-width: 770px) {
   .latest {
     min-height: 1200px;
+    padding: 0 10px
   }
   .latestArticles {
     grid-template-columns: 1fr;

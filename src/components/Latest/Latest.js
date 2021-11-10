@@ -11,48 +11,56 @@ const Latest = () => {
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
           img={null}
+          classes={['latestStories']}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
           img={null}
+          classes={['latestStories']}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
           img={null}
+          classes={['latestStories']}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
           img={null}
+          classes={['latestStories']}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
           img={null}
+          classes={['latestStories']}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
           img={null}
+          classes={['latestStories']}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
           img={null}
+          classes={['latestStories']}
         />
         <ArticleCard
           link="google.com"
           topic="Facial Recognition"
           title="There's something fishy about Facebook's pivot on facial recognition"
           img={null}
+          classes={['latestStories']}
         />
       </div>
       <button className="allNewsBtn">See All News</button>
