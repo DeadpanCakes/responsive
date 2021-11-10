@@ -10,6 +10,9 @@
 }
 
 @media (max-width: 1020px) {
+  .popular {
+    padding: 40px 10px 60px 10px;
+  }
   .articleList {
     display: flex;
     flex-direction: column;
