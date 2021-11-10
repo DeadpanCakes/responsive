@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.articleCard:link {
+  color: white;
+}
+
 .articleCardContent {
   position: absolute;
   left: 5%;
