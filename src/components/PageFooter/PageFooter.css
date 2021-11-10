@@ -37,4 +37,27 @@
 }
 
 @media (max-width: 1020px) {
+  .footerContent {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr 4fr;
+    grid-template-areas:
+      "logo   ....."
+      "social social"
+      "more   about";
+  }
+
+  .footerLogo {
+    grid-area: logo;
+  }
+  .footerSocial {
+    grid-area: social;
+  }
+  .socialLinks {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footerMore {
+    grid-area: more;
+  }
 }

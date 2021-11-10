@@ -10,8 +10,8 @@ const PageFooter = () => {
           </a>
           <h2>The heart of tech</h2>
         </hgroup>
-        <div className="footerNav">
-          <ul>
+        <div className="footerSocial">
+          <ul className="socialLinks">
             <li>
               <a href="https://facebook.com/thenextweb">Facebook</a>
             </li>
