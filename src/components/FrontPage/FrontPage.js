@@ -94,7 +94,7 @@ const FrontPage = () => {
         topic="Facial Recognition"
         title="There's something fishy about Facebook's pivot on facial recognition"
         img={conference}
-        classes={["small banner"]}
+        classes={["small banner smallContainer"]}
       />
     </section>
   );
