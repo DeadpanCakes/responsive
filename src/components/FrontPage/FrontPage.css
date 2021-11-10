@@ -20,6 +20,10 @@
 .largeHeader {
   grid-area: header;
 }
+.smallHeader {
+  display: flex;
+  flex-direction: column;
+}
 .largeTagline {
   grid-area: tagline;
 }
