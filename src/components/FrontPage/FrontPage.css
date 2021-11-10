@@ -1,5 +1,4 @@
 .frontPage {
-  background-color: red;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -19,31 +18,24 @@
 }
 
 .largeHeader {
-  background: white;
   grid-area: header;
 }
 .largeTagline {
-  background: blue;
   grid-area: tagline;
 }
 .firstArticle {
-  background: orange;
   grid-area: one;
 }
 .secondArticle {
-  background: green;
   grid-area: two;
 }
 .thirdArticle {
-  background: pink;
   grid-area: three;
 }
 .fourthArticle {
-  background: palegoldenrod;
   grid-area: four;
 }
 .fiveArticle {
-  background: peachpuff;
   grid-area: five;
 }
 
@@ -90,18 +82,14 @@
     height: 100%;
     flex: none;
     margin: 0 1%;
-    background: white;
   }
   .smallHeader {
-    background: white;
     grid-area: header;
   }
   .articleContainer {
-    background: blue;
     grid-area: articles;
   }
   .banner {
-    background: orange;
     grid-area: banner;
   }
 }
